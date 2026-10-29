@@ -1,0 +1,338 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: rgb(255, 252, 247);
+
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: rgb(255, 252, 247);
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+
+    width: 150px;
+    margin-top: 5px;
+}
+
+#left {
+    width: 30%;
+}
+
+#right {
+    width: 70%;
+    display: flex;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+
+#right a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding-top: 15px;
+    margin-left: 35px;
+}
+
+#Reservebtn {
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    border: 0px;
+    color: aliceblue;
+    margin-left: 20px;
+    background-color: rgb(244, 187, 96);
+    padding-left: 10px;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#i1 {
+    font-size: 20px;
+    padding-top: 15px;
+    margin-left: 20px;
+    color: black;
+}
+
+#p1 {
+    font-size: 45px;
+    margin-left: 38%;
+    margin-top: 50px;
+}
+
+.body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 252, 247);
+}
+
+.menucards {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image {
+    width: 250px;
+    padding-top: 15px;
+    padding-left: 5px;
+    margin-left: 15px;
+}
+
+.card {
+    height: 400px;
+    width: 300px;
+    margin-left: 68px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+.productname {
+    font-size: 40px;
+    margin-left: 35%;
+    margin-top: 10px;
+}
+
+#star {
+    color: goldenrod;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.menubtn {
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    color: black;
+    margin-left: 20px;
+    border: 1px solid rgb(244, 187, 96);
+    padding-left: 10px;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.3s ease;
+}
+
+.menubtn:hover {
+    background-color: rgb(244, 187, 96);
+}
+
+.btncontainer {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#prddesc {
+    margin-left: 40px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.prdprice {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 35px;
+    padding-top: 10px;
+}
+
+.cartbtn {
+    position: absolute;
+    height: 40px;
+    width: 140px;
+    border-radius: 25px;
+    color: black;
+    margin-left: 130px;
+    border: 1px solid rgb(244, 187, 96);
+    padding-left: 10px;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all 0.3s ease;
+    margin-top: -40px;
+}
+
+.cartbtn:hover {
+    background-color: rgb(244, 187, 96);
+}
+
+#productname2 {
+    font-size: 30px;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+#productname3 {
+    font-size: 30px;
+    margin-left: 15%;
+    margin-top: 20px;
+}
+
+#productname4 {
+    font-size: 30px;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+#star1 {
+    margin-left: 55px;
+    color: goldenrod;
+    font-size: 20px;
+}
+
+#star2 {
+    margin-left: 85px;
+    color: goldenrod;
+    font-size: 20px;
+}
+
+.footer {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255, 252, 247);
+    display: flex;
+}
+
+#hr {
+    height: 1px;
+    width: 80%;
+    background-color: lightgray;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#L1 {
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 252, 247);
+
+
+}
+
+#LP1 {
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+#input1 {
+    height: 50px;
+    width: 250px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    padding-left: 10px;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#arrowbtn {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    border: 1px solid rgb(244, 187, 96);
+    padding-left: 10px;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+
+#footericons {
+    font-size: 35px;
+    margin-left: 35px;
+    margin-top: 0px;
+    color: black;
+}
+
+#L2 {
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 252, 247);
+    display: flex;
+    flex-direction: column;
+}
+
+#LP2 {
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+#L2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#L3 {
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 252, 247);
+    display: flex;
+    flex-direction: column;
+}
+
+#LP3 {
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+#L3 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#L4 {
+    height: 100%;
+    width: 25%;
+    background-color: rgb(255, 252, 247);
+    display: flex;
+    flex-direction: column;
+}
+
+#LP4 {
+    font-size: 30px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+#L4 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
